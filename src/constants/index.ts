@@ -2,15 +2,14 @@ import { Day, TimeSlot, Occupancy } from '../types';
 
 export const DAYS: Day[] = ['ראשון', 'שני', 'שלישי', 'רביעי', 'חמישי', 'שישי'];
 
-export const TIME_SLOTS: TimeSlot[] = [
-  { id: 1, display: '08:00-09:00' },
-  { id: 2, display: '09:00-10:00' },
-  { id: 3, display: '10:00-11:00' },
-  { id: 4, display: '11:00-12:00' },
-  { id: 5, display: '12:00-13:00' },
-  { id: 6, display: '13:00-14:00' },
-  { id: 7, display: '14:00-15:00' },
-  { id: 8, display: '15:00-16:00' },
+export const TIME_SLOTS = [
+  { id: 1, display: '08:00-08:50', description: 'שעה ראשונה' },
+  { id: 2, display: '08:50-09:30', description: 'שעה שניה' },
+  { id: 3, display: '10:15-11:00', description: 'שעה שלישית' },
+  { id: 4, display: '11:00-11:45', description: 'שעה רביעית' },
+  { id: 5, display: '12:00-12:45', description: 'שעה חמישית' },
+  { id: 6, display: '12:45-13:30', description: 'שעה שישית' },
+  { id: 7, display: '13:35-14:20', description: 'שעה שביעית' }
 ];
 
 // רשימת החדרים

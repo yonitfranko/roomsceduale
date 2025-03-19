@@ -11,6 +11,7 @@ export type Day = 'ראשון' | 'שני' | 'שלישי' | 'רביעי' | 'חמ�
 export interface TimeSlot {
   id: number;
   display: string;
+  description: string;
 }
 
 export interface Occupancy {
